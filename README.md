@@ -62,22 +62,31 @@ The goal is to **reduce cloud costs**, **automate EC2 management**, and **optimi
    git clone https://github.com/your-username/cloud-aws-finops.git
    cd cloud-aws-finops
 2. Update the Lambda function:
-  Set your correct INSTANCE_IDS
-  Set your AWS REGION
-  Set START_HOUR and STOP_HOUR in UTC
+   Set your correct INSTANCE_IDS
+   
+   Set your AWS REGION
+   
+   Set START_HOUR and STOP_HOUR in UTC
+ 
 3. Create the AWS Lambda function:
-  Use Python 3.9 runtime
-  Attach IAM role with necessary EC2 permissions
-  Add a CloudWatch EventBridge Rule for scheduled triggers
-4. Monitor via CloudWatch Logs
+    Use Python 3.9 runtime
+    
+    Attach IAM role with necessary EC2 permissions
+    
+    Add a CloudWatch EventBridge Rule for scheduled triggers
+   
+5. Monitor via CloudWatch Logs
 
 ## 📈 Future Roadmap
    SNS Notifications for start/stop events
+   
    Smart dynamic tag-based instance management
+   
    Cost reports via AWS Budgets API
 
 ## 🤝 Contributing
   Pull requests are welcome! 🙌
+  
   For major changes, please open an issue first to discuss what you would like to change
 
 ## ✨ Maintainer
