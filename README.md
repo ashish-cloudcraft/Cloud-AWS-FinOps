@@ -91,4 +91,4 @@ The goal is to **reduce cloud costs**, **automate EC2 management**, and **optimi
 
 ## ✨ Maintainer
 Created and maintained by Ashish.
-Connect with me on LinkedIn
+
